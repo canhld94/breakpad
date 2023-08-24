@@ -41,7 +41,7 @@
 
 #include "client/linux/minidump_writer/linux_ptrace_dumper.h"
 
-#include <asm/ptrace.h>
+#include <sys/ptrace.h>
 #include <assert.h>
 #include <errno.h>
 #include <fcntl.h>

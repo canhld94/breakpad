@@ -35,7 +35,7 @@
 
 #include "client/linux/minidump_writer/linux_core_dumper.h"
 
-#include <asm/ptrace.h>
+#include <sys/ptrace.h>
 #include <assert.h>
 #include <elf.h>
 #include <stdio.h>
